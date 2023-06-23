@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Asap", sans-serif;
+}
+body{
+    background-color:darkslategray;
+}
+
+.apresentacao_fechada{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+
+}
+.apresentacao_home{
+    min-height: 100vh;
+    
+    margin: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.apresentacao_home_texto{
+
+}
+
+.eu{
+    width: 40%;
+    height: 40%;
+}
+.icon{
+    width: 45px;
+    height: 45px;
+}
+.icon_display{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+
+    gap: 8px; 
+    
+
+}
+.icon_display:nth-child(1){
+    position:absolute;
+    top: 105%;
+    left: 50%; 
+}
+.icon:hover{
+    width: 48px;
+    height: 48px;
+}
