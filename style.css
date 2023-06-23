@@ -21,12 +21,13 @@ body{
     min-height: 100vh;
     
     margin: 5%;
+    
+}
+.apresentacao_home_texto{
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-.apresentacao_home_texto{
-
+    
 }
 
 .eu{
@@ -37,18 +38,19 @@ body{
     width: 45px;
     height: 45px;
 }
-.icon_display{
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-between;
-    position: relative;
+.icon_display_rede{
+    display:flex;
+    gap: 20px;
+    
 
-    gap: 8px; 
+    
+    
+    
+   
     
 
 }
-.icon_display:nth-child(1){
+.icon_display{
     position:absolute;
     top: 105%;
     left: 50%; 
